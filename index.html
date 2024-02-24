@@ -216,6 +216,55 @@ body  .qodef-widget-block-26da9631 .qi-block-advanced-text p{font-family: 'Syne'
     }
 }
 
+/* Default styles */
+.qodef-social-links-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qodef-social-links-holder .qodef-social-link {
+    margin-right: 10px;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .qodef-social-links-holder .qodef-social-link {
+        margin-right: 80px; /* Adjust margin as needed */
+        position: relative;
+        font-size: 0; /* Hide original text */
+    }
+    
+    .qodef-social-links-holder .qodef-social-link:nth-child(1)::after {
+        content: "In"; /* LinkedIn */
+    }
+    
+    .qodef-social-links-holder .qodef-social-link:nth-child(2)::after {
+        content: "Be"; /* Behance */
+    }
+    
+    .qodef-social-links-holder .qodef-social-link:nth-child(3)::after {
+        content: "Dr"; /* Dribbble */
+    }
+    
+    .qodef-social-links-holder .qodef-social-link:nth-child(4)::after {
+        content: "Ig"; /* Instagram */
+    }
+    
+    /* Style for abbreviated text */
+    .qodef-social-links-holder .qodef-social-link::after {
+        content: attr(data-text);
+        font-size: 16px; /* Adjust font size as needed */
+        font-weight: 400S;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
 
 </style>
 
