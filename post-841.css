@@ -92,6 +92,29 @@
         --padding-inline-start: 0px;
         --padding-inline-end: 0px
     }
+    .elementor-841 .elementor-element.elementor-element-205c8a6 {
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+        width: var( --container-widget-width,870px );
+        max-width: 870px;
+        --container-widget-width: 870px;
+        --container-widget-flex-grow: 0
+    }
+
+    .elementor-841 .elementor-element.elementor-element-d340cda {
+        --display: flex;
+        --flex-direction: column;
+        --container-widget-width: 100%;
+        --container-widget-height: initial;
+        --container-widget-flex-grow: 0;
+        --container-widget-align-self: initial;
+        --background-transition: 0.3s;
+        --padding-block-start: 30px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px
+    }
     }
 
 .elementor-841 .elementor-element.elementor-element-524c9b6 {
