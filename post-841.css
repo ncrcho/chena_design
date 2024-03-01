@@ -110,8 +110,21 @@
         --container-widget-flex-grow: 0;
         --container-widget-align-self: initial;
         --background-transition: 0.3s;
-        --padding-block-start: 44px;
+        --padding-block-start: 37px;
         --padding-block-end: 0px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px
+    }
+    .elementor-841 .elementor-element.elementor-element-8d4c706 {
+        --display: flex;
+        --flex-direction: row;
+        --container-widget-width: initial;
+        --container-widget-height: 100%;
+        --container-widget-flex-grow: 1;
+        --container-widget-align-self: stretch;
+        --background-transition: 0.3s;
+        --padding-block-start: 64px !important;
+        --padding-block-end: 37px;
         --padding-inline-start: 0px;
         --padding-inline-end: 0px
     }
